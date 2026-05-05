@@ -1,4 +1,4 @@
-# Customer Insight & Trend Intelligence System
+# Customer Insight & Trend Intelligence Systems
 
 A production-quality NLP platform that extracts actionable business insights from user-generated text data using transformer-based sentiment analysis, BERTopic clustering, and automated trend detection.
 
