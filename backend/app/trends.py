@@ -1,12 +1,11 @@
+# Trend analysis and alert generation for customer sentiment data
+# Co-authored with CoCo
 from __future__ import annotations
 
 import logging
-from datetime import datetime, timedelta
+from datetime import timedelta
 
-import numpy as np
 import pandas as pd
-
-from app.config import ALERT_NEGATIVE_THRESHOLD
 
 logger = logging.getLogger(__name__)
 

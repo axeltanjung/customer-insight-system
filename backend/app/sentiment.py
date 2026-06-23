@@ -1,11 +1,12 @@
+# Sentiment analysis engine using VADER and transformer models
+# Co-authored with CoCo
 from __future__ import annotations
 
 import logging
 from typing import Optional
 
-import numpy as np
 import pandas as pd
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
+from transformers import pipeline
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 from app.config import SENTIMENT_MODEL_NAME
