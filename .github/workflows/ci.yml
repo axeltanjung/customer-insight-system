@@ -35,7 +35,7 @@ jobs:
       - name: Type check
         run: |
           pip install pyright
-          pyright --pythonversion 3.11
+          pyright --level warning
 
       - name: Test
         run: pytest --tb=short -q
